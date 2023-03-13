@@ -1,0 +1,23 @@
+Disciplina: tecnica de programação
+Alunos: Guilherme e Nathan
+
+o sistema opera de forma simples recebendo nome, senha, função na instituição e com base nisso guia a pessoa.
+
+para entrar no "sistema" coloque algum desses login's e senhas:
+qualquer outra resposta dara erro e sera enviado para a pagina de erro.
+
+visitante 
+nome  = "visitante"
+senha = "v123"
+
+aluno 
+nome  = "guilherme"
+senha = "gui123"
+
+funcionario 
+nome  = "bezerra"
+senha = "beze123"
+
+professor 
+nome  = "josenyr"
+senha = "jose123"

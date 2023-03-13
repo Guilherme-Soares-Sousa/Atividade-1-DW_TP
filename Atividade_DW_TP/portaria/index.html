@@ -1,0 +1,40 @@
+<!doctype html5>
+<html lang="pt-br">
+<meta charset="utf-8">
+
+	<link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="acesso.js"></link>
+	<script type="text/javascript"; src="acesso.js" defer></script>
+	
+<head>
+	
+	<title>Tela de Login</title>	
+</head>
+
+
+<body>
+
+<div class="box">   <!-- inicio formulário -->
+<h1>login</h1>
+
+<input id="nome" type="text" name="nome" placeholder="Nome/Email...">
+
+<input id="senha" type="password" name="senha" placeholder="Senha...">
+
+
+<h2>Função:</h2>
+<select id="select" name="funcao" >
+<option id="1" value="1"> 1 - Visitante </option>
+<option id="2" value="2"> 2 - Aluno </option>
+<option id="3" value="3"> 3 - Funcionario </option>
+<option id="4" value="4"> 4 - Professor </option>
+</select>
+
+<button id="botao" onclick="processo()" role="button"> Acessar </button>
+ 
+</div>
+                                      <!-- final formulário -->
+
+
+</body>
+</html>

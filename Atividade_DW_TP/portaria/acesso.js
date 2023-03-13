@@ -116,7 +116,7 @@ switch(opcaoTexto.value)
 
     case "3":
         const funcionario = portaria.criarPorFunc('Funcionario', nome);
-        if (nome == nomef && senha == senhaf && opcaoTexto.value == "2" ){
+        if (nome == nomef && senha == senhaf && opcaoTexto.value == "3" ){
             window.location.href = "processo/aprovado.html?nome="+ funcionario.nome +"&func="+ funcionario.tipo;
         } else{
             window.location.href = "processo/negado.html"
@@ -125,7 +125,7 @@ switch(opcaoTexto.value)
 
     case "4":
         const professor = portaria.criarPorFunc('Professor', nome);
-        if (nome == nomep && senha == senhap && opcaoTexto.value == "2" ){
+        if (nome == nomep && senha == senhap && opcaoTexto.value == "4" ){
             window.location.href = "processo/aprovado.html?nome="+ professor.nome +"&func="+ professor.tipo;
         } else{
             window.location.href = "processo/negado.html"
